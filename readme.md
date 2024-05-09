@@ -1,4 +1,4 @@
-<h1 style="text-align:'center'"> Component.js  </h1>
+<h1 style="text-align:'center';margin:'auto'"> Component.js  </h1>
 
 This is a minimalistic and simple component library designed to facilitate adding, updating, and retrieving HTML elements easily in your web projects.
 
