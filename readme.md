@@ -18,6 +18,8 @@ You can include the library directly into your HTML document:
 ```html
 <script src="path/to/component.js"></script>
 <script src="path/to/html.elements.js"></script>
+         -Or-
+<script src="path/to/{var}.{file_name}.js"></script>
 ```
 ### Adding Elements
 To add an HTML element as a component to your HTML document:
