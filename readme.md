@@ -20,8 +20,6 @@ You can include the library directly into your HTML document:
 To add an HTML element as a component to your HTML document:
 
 ```
-javascript
-Copy code
 const element = ComponentLibrary.addElement({
     tag: 'div',
     id: 'myDiv',
@@ -33,8 +31,6 @@ const element = ComponentLibrary.addElement({
 ### Updating Elements
 To update an existing HTML element:
 ```
-javascript
-Copy code
 ComponentLibrary.updateElement('myDiv', {
     class: 'newClass',
     style: 'color: red;',
@@ -44,13 +40,7 @@ ComponentLibrary.updateElement('myDiv', {
 ### Retrieving Elements
 To retrieve an existing HTML element:
 ```
-javascript
-Copy code
 const element = ComponentLibrary.getElement('myDiv');
-Examples
-Adding a Button
-javascript
-Copy code
 const button = ComponentLibrary.addElement({
     tag: 'button',
     id: 'myButton',
@@ -61,8 +51,6 @@ const button = ComponentLibrary.addElement({
 
 ### Updating Button Style
 ```
-javascript
-Copy code
 ComponentLibrary.updateElement('myButton', {
     class: 'btn btn-primary',
     style: 'background-color: blue; color: white;'
